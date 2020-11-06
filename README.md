@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Clone Netflix" src="img-github/netflix-icon-clone.png" height="100px" />
+    <br>Exercício da aula ministrada por Bonieky Lacerda da b7web<br/>
+    HTML | ReactJS | CSS
+</h1>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/diegoalmda/clonenetflix?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diegoalmda/clonenetflix?style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/diegoalmda/clonenetflix?style=flat-square">   
+</p>
+<p align="center">
+  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="design do projeto" width="650px" src="./img-github/netflix-intro.png" /><br>
+  <img alt="design do projeto" width="650px" src="./img-github/netflix-filmes.png" /><br>
+  <img alt="design do projeto" width="150px" src="./img-github/netflix-intro-mobile.png" />
+  <img alt="design do projeto" width="150px" src="./img-github/netflix-filmes-mobile.png" />
+   <img alt="design do projeto" width="150px" src="./img-github/netflix-creditos-mobile.png" />
+<p>
 
-### `npm start`
+## :bookmark: Sobre
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O **Netflix Clone** é uma aplicação Web desenvolvida com o objetivo de recriar a página inicial do site Netflix para demonstrar a utilização da biblioteca ReactJS em conjunto com os mecanismos do CSS na construção do front-end de uma aplicação. Para conseguir recriar esta aplicação a partir de um clone do repositório será necessário realizar um cadastro no site **[The movie db](https://www.themoviedb.org/)** e depois seguir para a seção de **[API](https://www.themoviedb.org/settings/api/)** para gerar a chave da API e, assim, conseguir utilizar a API do site e capturar as informações dos filmes e séries que serão necessárias para construção do design da página clone. 
+  
+## :rocket: Tecnologias
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+-  [Node.js](https://nodejs.org/en/)
+-  [ReactJS](https://reactjs.org/)
 
-### `npm test`
+## :boom: Como Executar
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ### **Pré-requisitos**
 
-### `npm run build`
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
+  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+  
+1. Faça um clone do repositório:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+  $ git clone https://github.com/diegoalmda/clonenetflix
+  # No projeto foi criado um arquivo Api-key.js contendo uma constante com a API_KEY que deve ser importada no arquivo Tmdb.js
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+2. Executando a Aplicação:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+  # Aplicação web
+  $ cd web
+  # Instalando as dependências do projeto.
+  $ npm install 
+  # Inicie a API
+  $ npm start 
+  # Para abrir no browser acesse o endereço localhost na porta 3000
+  Abra [http://localhost:3000](http://localhost:3000) para visualizar a aplicação no browser.
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :memo: Licença
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+<sup>Projeto desenvolvido com a tutoria de [Bonieky Lacerda](), da [b7web](https://b7web.com.br/).</sup>

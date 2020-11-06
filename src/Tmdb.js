@@ -1,5 +1,5 @@
 import { keys } from "@material-ui/core/styles/createBreakpoints";
-const API_KEY = '3ff1d500c1e3dfccf001222c374b98fb';
+const API_KEY = require('./Api-key.js');
 const API_BASE = 'https://api.themoviedb.org/3';
 
 
