@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Clone Netflix" src="img-github/netflix-icon-clone.png" height="100px" />
+    <img alt="Clone Netflix" src="img-github/netflix-icon-clone.png" height="200px" />
     <br>Exercício da aula ministrada por Bonieky Lacerda da b7web<br/>
     HTML | ReactJS | CSS
 </h1>
@@ -9,19 +9,13 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diegoalmda/clonenetflix?style=flat-square">
   <img alt="GitHub" src="https://img.shields.io/github/license/diegoalmda/clonenetflix?style=flat-square">   
 </p>
-<p align="center">
-  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
 
 <p align="center">
   <img alt="design do projeto" width="650px" src="./img-github/netflix-intro.png" /><br>
   <img alt="design do projeto" width="650px" src="./img-github/netflix-filmes.png" /><br>
-  <img alt="design do projeto" width="150px" src="./img-github/netflix-intro-mobile.png" />
-  <img alt="design do projeto" width="150px" src="./img-github/netflix-filmes-mobile.png" />
-   <img alt="design do projeto" width="150px" src="./img-github/netflix-creditos-mobile.png" />
+  <img alt="design do projeto" width="200px" src="./img-github/netflix-intro-mobile.png" />
+  <img alt="design do projeto" width="200px" src="./img-github/netflix-filmes-mobile.png" />
+   <img alt="design do projeto" width="200px" src="./img-github/netflix-creditos-mobile.png" />
 <p>
 
 ## :bookmark: Sobre
