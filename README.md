@@ -45,8 +45,6 @@ O **Netflix Clone** é uma aplicação Web desenvolvida com o objetivo de recria
 2. Executando a Aplicação:
 
 ```sh
-  # Aplicação web
-  $ cd web
   # Instalando as dependências do projeto.
   $ npm install 
   # Inicie a API
