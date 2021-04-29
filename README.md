@@ -59,4 +59,4 @@ O **Netflix Clone** é uma aplicação Web desenvolvida com o objetivo de recria
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-<sup>Projeto desenvolvido com a tutoria de [Bonieky Lacerda](), da [b7web](https://b7web.com.br/).</sup>
+<sup>Projeto desenvolvido com a tutoria de [Bonieky Lacerda]() da [b7web](https://b7web.com.br/).</sup>
